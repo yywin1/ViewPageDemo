@@ -5,13 +5,14 @@ import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.example.viewpagedemo.R;
 import com.example.viewpagedemo.databinding.ActivityViewModelBinding;
 
 public class ActivityViewModel extends AppCompatActivity {
    MyViewModel myViewModel;
-
+    TextView textView;
     //    TextView txtView;
 //    Button btn;
     //替换
